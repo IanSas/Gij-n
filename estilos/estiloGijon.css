@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(70, 193, 250);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div.cabecera{
+    background-image: url(../imagenes/Gijon_puerto_deportivo_12-09-2005.jpg);
+    border: 8px red solid;
+    width: auto;
+    height: 270px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom:10px;
+}
+div{
+    padding:10px;
+    border: 6px red solid;
+    width:auto;
+    height: auto;
+    margin-bottom:10px;
+}
+h1.gijon{
+    color: rgba(255, 255, 255, 0.548); 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-text-stroke: 2px black;
+}
+h2{
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    border: 4px blue solid;
+    text-align: center;
+    background-color: red;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: rgb(0, 0, 0) ;
+    color:#fff;
+    text-align:center;
+}
+
+td.distrito{
+    background-color:rgb(253,9,9);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:1.25em;
+    color: #000;
+}
+th{   
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:1.25em;
+    color: #000;
+}
+td{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:1.25em;
+    color: #000;
+}
+table tr:nth-child(even) {
+    background-color: white;
+}
+ 
+table tr:nth-child(odd) {
+    background-color: rgb(253, 9, 9);
+}
+img{
+    width:30%;
+    height:30%;
+}
